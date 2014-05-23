@@ -54,7 +54,33 @@ to cover the next few days), we check all saved dates in $clearSky,
 using an inner loop, for a match with each ISS alert date. If the
 date strings match, then the ISS sighting description is added to the
 report, $sightingsReport. Finally, if the report is not empty, we
-send the report  by email.
+send the report  by email. It looks like this when received as email:
+	
+	------------------------------------------------------
+	To: myemail@mydomain.com
+	Spot ISS on a starry night!
+	
+				Date: Monday May 19, 2014 
+				Time: 3:29 AM 
+				Duration: 1 minute 
+				Maximum Elevation: 27 ° 
+				Approach: 27 ° above N 
+				Departure: 16 ° above NNE 
+				
+				Date: Wednesday May 21, 2014 
+				Time: 3:27 AM 
+				Duration: 1 minute 
+				Maximum Elevation: 14 ° 
+				Approach: 14 ° above NNW 
+				Departure: 10 ° above N 
+				
+				Date: Thursday May 22, 2014 
+				Time: 2:40 AM 
+				Duration: less than  1 minute 
+				Maximum Elevation: 12 ° 
+				Approach: 12 ° above NNE 
+				Departure: 12 ° above NNE
+	------------------------------------------------------
 
 	Notes
 	====
