@@ -26,7 +26,7 @@ $forecast = explode($forecastStart,$restOfForecasts);
 # Part 3
 
 for ($i = 0; $i <= $forecastsLength; $i++) {
-    if (strpos ( $forecast[$i], 'symbol number="3"') !== false){
+    if (strpos ( $forecast[$i], 'symbol number="1"') !== false){
     	if (substr($forecast[$i],1,10) !== $sameDay){
 			array_push($starrySky,substr($forecast[$i],1,10));
 		}
