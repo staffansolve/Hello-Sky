@@ -12,7 +12,7 @@ Script
 ====
 Part 1. We read the weather forecast from yr.no and save it in plain text format. Replace the location in this example by looking up the URL on yr.no for your favourite spot.
 
-Part 2. Using the explode function, we take away everything before "tabular" in the forecast. We then chop up the rest into single forecasts for each 6 to 8 hours, by the begin tag "time from=". The array $starrySky will save dates when the night sky is expected to be clear. We will use $sameDay to make sure we only save a date once, since we do not need the 6 to 8 hour breakdown.
+Part 2. Using the explode function, we take away everything before "tabular" in the forecast. We then chop up the rest into single forecasts for each 6 to 8 hours, by the begin tag "time from=". The array $starrySky will save dates when the sky is expected to be clear. We will use $sameDay to make sure we only save a date once, since we do not need the 6 to 8 hour breakdown.
 
 Part 3. Now we look for the YR sign of a clear sky, which is the weather symbol 1. For the length of all forecasts, we check each forecast if symbol number 1 is present. If it looks promising, we save the date - nine characters - to $starrySky, provided $sameDay does not tell us we already saved that date. Of course, even if the weather symbol 1 is present for a date, we cannot be sure that this is valid for the night. So we should really look at the 6 to 8 hour breakdown to make sure the symbol 1 is present during nighttime. But that could be a future improvement of the code.
 
