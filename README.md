@@ -1,6 +1,6 @@
 Hello-Sky
 =========
-A link to the related blog post will be included!
+The background for this code is described in this blog post: http://nordicapis.com/twinkle-twinkle-little-star-use-apis-spot-international-space-station/
 
 First, a disclaimer: Since the author is a relative newbie to php, this script is somewhat clumsy, not very elegant and also lacks proper error handling. But it works. Any tips on improvements are welcome.
 
